@@ -62,8 +62,7 @@ youtube_id: null
 discord_id: null
 zotero_username: null
 wechat_qr: null
-contact_note: |
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: null
 google_analytics: null
 cronitor_analytics: null
 google_site_verification: null

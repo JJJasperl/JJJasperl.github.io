@@ -2,96 +2,121 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jie (Jasper) Liu
+    - name: Phone
+      value: (216)-394-6719
+    - name: Email
+      value: jasperl@berkeley.edu
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Engineering
+      institution: University of California, Berkeley
+      department: Electrical Engineering & Computer Sciences (EECS)
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Relevant Courses
+        - User Interface Design and Development, Introduction to Machine Learning, Computer Vision, Optimization models in Engineering 
 
-- title: Experience
+    - title: Bachelor of Arts in Computer Science
+      institution: University of California, Berkeley
+      department: College of Computing, Data Science, and Society (CDSS)
+      year: 2022 - 2024
+      description:
+        - Relevant Courses
+        - Data Structure, Computer Architecture, Efficient Algorithms, Database and Distributed System, Operating System, Computer Security
+
+    - title: Undergraduate Studies in Computer Science
+      institution: Case Western Reserve University
+      year: 2020 - 2022
+      description:
+        - Transferred to UC Berkeley for advanced studies and broader research opportunities.
+
+- title: Working Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer Intern
+      institution: CrossValidation.ai
+      year: Summer 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed language models to enhance predictive capabilities for quantitative investing strategies.
+        - Efficiently managed PostgreSQL databases for optimal handling of financial datasets.
+        - Deployed and tested AI models, focusing on quick delivery and reliability for financial analysis.
+
+    - title: PLC Software Engineer Intern
+      institution: XingPack Automation Co., Ltd
+      year: Summer 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Debugged and enhanced dual-axis motion control in PLC systems using the CODESYS platform on Linux.
+        - Optimized motor parameters and algorithms, resulting in a 20% reduction in processing time.
+        - Engineered a robotic arm for automated boxing, increasing automation and efficiency by 30%.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Undergraduate Researcher
+      institution: Building Blocks of Cognition Laboratory
+      year: 2023 - 2024
+      description:
+        - Used Python and MATLAB for visual and auditory design in cognitive experiments.
+        - Leveraged PsychoPy for coding experiments, monitoring brain activity, and data collection.
+        - Applied machine learning to analyze scan results, identifying patterns that contribute to research.
 
-- title: Honors and Awards
+    - title: Conference Presenter
+      event: Bunge Lab Conference
+      year: Mar 2024
+      description:
+        - Presented a poster on cognitive experiment design, showcasing collaborative research conducted with lab members.
+        - Engaged with attendees to discuss research methodologies and findings.
+
+- title: Projects
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Full Link User System
+      year: Mar 2024
+      description:
+        - Enhanced project efficiency by developing the data access layer with MyBatis and MyBatis-Plus.
+        - Developed and optimized user interfaces using Ant Design Pro for improved interaction.
+        - Ensured stable operations with Docker and Nginx deployments.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Pintos Operating System
+      year: Feb 2024
+      description:
+        - Implemented core functionalities in Pintos including argument passing, syscalls, and floating points.
+        - Extended Pintos by adding multithreaded user program support, a strict priority scheduler, and improvements to the file system.
 
-- title: Other Interests
-  type: list
+    - title: An End-to-End Encrypted File Sharing System
+      year: Feb 2024
+      description:
+        - Designed a secure file-sharing system using Go with advanced user authentication and encryption.
+        - Implemented access controls and security measures to prevent unauthorized access and breaches.
+
+    - title: RookieDB, A Database Implementation
+      year: Nov 2023
+      description:
+        - Implemented a Java-based SQL database system supporting B+ tree indexing and join algorithms.
+        - Added query optimization and a locking mechanism for concurrent transactions and integrity.
+
+- title: Publications
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Analysis of faster matrix multiplication
+      journal: TNS
+      year: 2023
+      description:
+        - "Jie Liu. Analysis of faster matrix multiplication. TNS (2023) Vol. 11: 142-146. DOI: 10.54254/2753-8818/11/20230394."
+
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Programming Languages
+      value: Java, C, Python, JavaScript, C++, Rust, Go, MATLAB, SQL, NoSQL, x86
+    - name: Development Skills
+      value: HTML, CSS, React, Vue, GraphQL, MongoDB, SSM, Spring Boot
+    - name: Tools
+      value: Git, GitHub, VSCode, IntelliJ, Linux, Docker, AWS, GDB
+
