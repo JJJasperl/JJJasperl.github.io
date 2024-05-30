@@ -20,7 +20,7 @@ repo_trophies:
   enabled: true
   theme_light: flat
   theme_dark: gitdimmed
-rss_icon: true
+rss_icon: false
 navbar_fixed: true
 footer_fixed: true
 max_width: 800px
@@ -61,7 +61,7 @@ facebook_id: null
 youtube_id: null
 discord_id: null
 zotero_username: null
-wechat_qr: null
+wechat_qr: WeChat_qr.jpg
 contact_note: null
 google_analytics: null
 cronitor_analytics: null
@@ -90,7 +90,7 @@ giscus:
 disqus_shortname: al-folio
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: 
 collections:
   # news:
   #   defaults:

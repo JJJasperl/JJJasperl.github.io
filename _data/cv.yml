@@ -42,9 +42,16 @@
       institution: CrossValidation.ai
       year: Summer 2024
       description:
-        - Developed language models to enhance predictive capabilities for quantitative investing strategies.
-        - Efficiently managed PostgreSQL databases for optimal handling of financial datasets.
-        - Deployed and tested AI models, focusing on quick delivery and reliability for financial analysis.
+        - Implemented a data management system with PostgreSQL to process data for Llama3 finetuning.
+        - Utilized AWS services for efficient data processing and model training workflows.
+        - Integrated OpenAi's API for an interactive chat feature, enabling investors to build AI-driven investment strategies.
+
+    - title: UI Developer Intern
+      institution: Kabila
+      year: Summer 2024
+      description:
+        - Developed and optimized mobile app using FlutterFlow, ensuring performance and engagement.
+        - Designed UI components for the web and mobile app using Figma, enhancing user experience.
 
     - title: PLC Software Engineer Intern
       institution: XingPack Automation Co., Ltd
