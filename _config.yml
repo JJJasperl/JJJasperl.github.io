@@ -90,7 +90,7 @@ giscus:
 disqus_shortname: al-folio
 external_sources:
   - name: medium.com
-    rss_url: 
+    rss_url: https://medium.com/@al-folio/feed
 collections:
   # news:
   #   defaults:
